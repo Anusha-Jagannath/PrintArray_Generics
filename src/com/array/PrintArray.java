@@ -12,18 +12,9 @@ public class PrintArray {
 		displayArray(charArray);
 	}
 
-	private static void displayArray(Integer[] inputArray) {
-		for(Integer i: inputArray)
+	private static <T> void displayArray(T[] inputArray) {
+		for (T i : inputArray)
 			System.out.println(i);
 	}
-	private static void displayArray(Double[] inputArray) {
-		for(Double i: inputArray)
-			System.out.println(i);
-	}
-	private static void displayArray(Character[] inputArray) {
-		for(Character i: inputArray)
-			System.out.println(i);
-	}
-
 
 }
